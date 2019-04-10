@@ -5,63 +5,143 @@
   Date : April 9, 2019
   Revision : 
 -->
-<html>
-<head>
-  <title>
-    Contact us page 
-  </title>
-</head>
+<html lang = en>
+
+  <head>
+    <title>
+      Contact us page 
+    </title>
+
+    <link rel= "stylesheet" type= "text/css" href= "../style.css" />
+
+      <style>
+      
+      </style>
+
+  </head>
+
 <body> 
-  <p>
-    <a href = "Restaurant projects/restaurant1/index.html" >
-    Home Page 
-    </a>
-  </p>
+    <main>
+
+   <header>   
+      <p>
+        <a href = "Restaurant projects/restaurant1/index.html" >
+          Home Page 
+        </a>
+      </p>
   <h1 align = center >
     Athletes Grab and Go Snack bar 
   </h1>
   <hr />
-    <nav>
+    <nav align = center >
   <p>
-    <a href = "Restaurant projects/restaurant1/index.html" />
+      <a href = "../index.html" />
+        Home
+      </a> 
+        <a href = "../menu options/index.html" />
+          Menu
+        </a>
+    <a href= "index.html" />
+      Contact us 
     </a>
-    Home Page 
-    <a href = "Restaurant projects/restaurant1/menu options/index.html" />
-    </a>
-    Menu
-    Contact us 
   </p>
-   </nav>
+      </nav>
    <hr />
-   
-  <form action = index.html method = POST align = center>
-   Full Name : <input type= text name: fullName /> </br>
-   Email : <input type= text name: email /> </br>
-   Phone Number: <input type: text name: phoneNumber /> </br>
-   Reason for Inquiry: <input type: text name: reasonForInquiry /> </br>
-   Additional Information : <input type: text name: additionalInformation /> </br>
-  Have you been to the Athletes Grab and Go Snack bar? :
-   <input type= radio name= answer value= YES checked />
-   <input type= NO name= answer value= NO />
-   <input type= ONLINE name= answer value= ONLINE />
-    Best days to contact you: 
-   <input type= checkbox name= days value= M />
-   <input type= checkbox name= days value= Tue />
-   <input type= checkbox name= days value= W />
-   <input type= checkbox name= days value= Thu />
-   <input type= checkbox name= days value= F />
-   <input type= checkbox name= days value= Sat />
-   <input type= checkbox name= days value= Sun />
-   <input type: submit /> </br>
- </form>
+ </header>
+
+     <section>
+      
+      <table align = center >
+        <form action = "index.html" method= "POST">
+
+          <tr> 
+            <th align = right> Please fill out </th> 
+            <th align = left> the Following </th>
+          </tr>
+          
+          <tr> 
+            <td align= right> Full Name: </td>
+            <td> <input type= "text" name= "FullName"> </td>
+          </tr>
+
+          <tr>
+            <td align= right> Email:</td>
+            <td> <input type= "text" name= "email" > </td>
+          </tr>
+
+          <tr>
+            <td align = right> Phone:</td>
+            <td> <input type = "text" name= "Phone#"> </td>
+          </tr>
+
+          <tr>
+            <td align = right> Reason for Inquiry: </td>
+            <td> 
+              <select name= "options">
+                <option value = "order"> Existing Order </option>
+                <option value = "Issue"> Issue </option>
+                <option value = "Inquiry"> Inquiry </option>
+                <option value = "Other"> Other </option>
+              </select> 
+            </td>
+          </tr>
+
+          <tr>
+            <td align= right>Additonal Information: </td>
+            <td>  <textarea> </textarea></td>
+          </tr>
+
+          <tr>
+            <td align= right> Have you been to the Snack Bar?</td>
+            <td> 
+              <input type= "radio" name= "answer" value= "YES" checked />YES 
+              <input type= "radio" name= "answer" value= "NO"/> NO
+              <input type= "radio" name= "answer" value= "ONLINE" /> ONLINE
+          </td>
+          </tr> 
+
+          <tr>
+            <td align= right> Best time to contact you:</td>
+            <td>
+              <input type= "checkbox" name= "days" value= "Mon." checked/> Mon.
+              <input type= "checkbox" name= "days" value= "Tues." /> Tues.
+              <input type= "checkbox" name= "days" value= "Wed." /> Wed.
+              <input type= "checkbox" name= "days" value= "Thur." /> Thur.
+              <input type= "checkbox" name= "days" value= "Fri." /> Fri.
+              <input type= "checkbox" name= "days" value= "Sat." />Sat.
+              <input type= "checkbox" name= "days" value= "Sun." /> Sun.
+
+            </td>
+          </tr>
+
+          <tr> 
+            <td align= right> AM or PM</td>
+            <td> 
+              <input type= "radio" name= "time" value= "AM" checked/> AM
+              <input type= "radio" name= "time" value= "PM" /> PM
+            </td>
+          </tr>
+
+          <tr align= center>
+              <td> <input type= "submit"/> </td>
+              <td> <input type= "reset" /></td>
+          </tr>
+
+         </form>
+      </table>
+
+    </section>
 
 <footer>
   <hr />
     <p> 
-      Center of the World, NY 10045
-       222.333.4444
+      &copy; 2019 Marie Douyon. All rights reserved 
+    </p>
+      <p>NFL central, New York 11014 444.222.3333
     </p>
 </footer>
+
+  </main>
 </body>
 
 
