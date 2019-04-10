@@ -1,10 +1,43 @@
  body{
+ 	/*Background for all pgs*/
 	 		background-color: green;
 	 		color: white;
 		}
-		header, footer {
+		
+header, footer {
+	/*background for all header & footer*/
 			Background-color: #df5a00;
+			text-align: center;
 		}
-		.blueWords {
+
+.blueWords {
+	/*text color for all restaurant pages with CSS*/
 			color: white;
 		}
+
+a { /* aimed at all anchored links */
+	 color: black;
+	}
+
+a:link /* pseudo code */ {
+	
+	color: blue;
+	/* unvisted link */
+}
+
+a:visited {
+	color: blue;
+
+}
+
+a:hover {
+	color: #FFFAFA; /*white*/
+	font-weight: bold;
+	
+}
+
+a:active {
+
+	color: green;
+}
+
