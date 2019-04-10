@@ -9,16 +9,43 @@
 	<head>
 		<title> Marie Portfolio
 		</title> 
+		<style>
+		 body{
+	 		background-color: green;
+	 		color: white;
+		}
+		header, footer {
+			Background-color: #df5a00;
+			color: white;
+
+
+		}
+		.border {
+			border: thick dashed white;
+		}
+		#About-Me {
+				background-color: #005000;
+		}
+		#Past-Experiences {
+			background-color: #df5a00;
+			color: #005000;
+		}
+		#Hobbies {
+			background-color: #005000;
+
+		}
+	</style>
 	</head>
 <main>
-	<header> 
-		<h1 align = center> 
+	<header align = center> 
+		<h1 > 
 			Portfolio for Marie Douyon
 		</h1> 
-		<hr /> 
+		
 <nav>
+	 <hr/>
 	<p> 
-		<a href =  "Restaurant/index.html" /> 
+		<a href =  "../Restaurant/index.html" target = "_blank"/> 
 			Projects
 		</a>
 	  
@@ -30,11 +57,13 @@
 			Testimonials 
 		</a>
 	</p> 
+	<hr />
 </nav>
-		<hr />
+		
 	</header>
-			<section>
-				<article id = "About-Me"> 
+
+			<section class= border >
+				<article id = "About-Me" > 
 					<h2 align = center> 
 						<em> 
 							About Me 
@@ -70,7 +99,7 @@
 								</em> 
 							</h2>
 							
-							<figure>
+							<figure class= border>
 								<p id = "target" > 
 									<b>
 										FOOTBALL 
@@ -89,10 +118,10 @@
 			</section>
 	<footer>
 		<hr /> 
-	</footer>
+	
 		
-		<p> &copy; Marie Douyon. All rights reserved.
-
+		<p align = center> &copy; Marie Douyon. All rights reserved.
+	</footer>
 		</main>
 	</body>
 </html>
