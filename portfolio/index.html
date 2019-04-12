@@ -6,9 +6,11 @@
 	Most recent revision: 4.8.2019
 -->
 <body>
+	<main>
+
 	<head>
-		<title> Marie Portfolio
-		</title> 
+		<title> Marie Portfolio</title> 
+
 		<style>
 		 body{
 	 		background-color: green;
@@ -34,35 +36,48 @@
 			background-color: #005000;
 
 		}
+		nav {
+			padding: 30px;
+		}
 	</style>
+<link rel="stylesheet" type="text/css" href="../Restaurant/restaurant2/style.css" >
 	</head>
-<main>
+
+
 	<header align = center> 
 
 		<h1 > 
 			Portfolio for Marie Douyon
 		</h1> 
-		
-<nav>
+	</header>
+
+<table>
+<nav align= center>
 	 <hr/>
-	<p> 
-		<a href =  "../Restaurant/index.html" target = "_blank"/> 	Projects
-		</a>
-	  
+	<tr>
+		<th> 
+			<a href = "../Restaurant/index.html" target = "_blank"/> 	Projects
+			</a>
+	  	</th>
+
+	  	<th>
 		<a href = "contact/index.html" target = "_blank">
 			Contact
 		</a>
-				
+		</th>
+
+		<th>
 		<a href = ""> 
 			Testimonials 
 		</a>
-	</p> 
+		</th>
+	</tr> 
+
 	<hr />
 </nav>
-		
-	</header>
-
-			<section class= border >
+</table>
+			
+<section class= border >
 				<article id = "About-Me" > 
 					<h2 align = center> 
 						<em> 
@@ -91,19 +106,34 @@
 							The journey up until learning to code has been interesting. But the exposure to using Epic/Quadramed, really pushed me to pursue coding. Most of my experience came from my own curiosity using free platforms online (coursera, edx, freeCodeAcademy, treeHouse). But the exposure to EMRs like Epic really put things into was the push I need. And once again the fairy god mother advised TechHire to help with me transition from my techincal understanding to a developer.  
  						</p>
 					</article>
-
+<!--
+	Hobbies section using tables to make pics side by side
+-->
 						<article id = "Hobbies" > 
 							<h2 align = center> 
 								<em> 
 									 Hobbies 
 								</em> 
 							</h2>
-							
-							<figure class= border>
-								<p id = "target" > 
-									<b>
-										FOOTBALL 
-									</b>  
+
+						<table>
+							<tr> 
+								<th>
+									Football
+								</th>
+								<th>
+									reading
+								</th>
+								<th>
+									Anime
+								</th>
+							</tr>
+<!-- 
+secoond row has football img.
+--!
+
+							<tr>
+								<figure class= border>	 
 								</p> 
 
 									<p>
@@ -114,14 +144,12 @@
 										<img src= "data:image/jpeg;base64,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" width = 200px>
 									</p>
 									<p> 
-										<em> 
-											Pic of one my best mates Manouchka Joseph a.k.a black Nasty #77 
-										</em> 	
+								</tr>	
 							</figure>
 				
 
 						</article>
-			</section>
+</section>
 
 	<footer>
 		<hr /> 
@@ -131,6 +159,6 @@
 	</footer>
 
 
-		</main>
-	</body>
+	</main>
+</body>
 </html>
