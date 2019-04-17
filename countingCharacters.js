@@ -6,7 +6,7 @@ function countingCharacters(stringToCount){
 }
 
 countingCharacters("Strawberries");
-
+// this also touches base on Arrays 
 function countingCharacter2(stringToCount,characterToFind){
 //lets count the # of times a chara. appears in a string
 //We'll look at each character 1-by-1 with the help of a Loop
