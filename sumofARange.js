@@ -9,4 +9,6 @@ for (var arrayPosition = 0; arrayPosition < testArray.length; arrayPosition++){
    //  use the Addition Operator to add the surrent elements valus to the rolling sum
     sum += testArray[arrayPosition];
 }
+// asking for web browser to show the items in the array
+//  and also that sum
 console.log("The sum of " + testArray + " is " + sum);
