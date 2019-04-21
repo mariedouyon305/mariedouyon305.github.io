@@ -1,12 +1,12 @@
-function cleaerrors() {
+function clearErrors() {
   for (var loopCounter = 0; 
     loopCounter < document.forms["numberFun"].elements.length;
     loopCounter++)  
 
-  {if (document.forms["numberFun"].elements[loopcounter] 
+  {if (document.forms["numberFun"].elements[oopCounter] 
       .parentElement.className.indexOf("has-") ! = -1) 
 
-    {document.form["numberFuun"].elements[loopCounter] 
+    {document.form["numberFun"].elements[loopCounter] 
         .parentElement.className = "form-group";
     }
   }
@@ -20,6 +20,8 @@ function resetForms() {
     document.getElementById("submitButton").innerText = "Submit";
     document.forms["numberFun"]["num1"].focus();
 }
+
+
 function validateItems() {
     clearErrors();
     var num1 = document.forms["numberFun"]["num1"].value;
