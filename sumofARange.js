@@ -6,7 +6,7 @@ var sum = 0;
 for (var arrayPosition = 0; arrayPosition < testArray.length; arrayPosition++){
    //  we used a loop to find that sum
 
-   //  use the Addition Operator to add the surrent elements valus to the rolling sum
+   //  use the Addition Operator to add the current elements value to the rolling sum
     sum += testArray[arrayPosition];
 }
 // asking for web browser to show the items in the array
