@@ -12,3 +12,6 @@ for (var arrayPosition = 0; arrayPosition < testArray.length; arrayPosition++){
 // asking for web browser to show the items in the array
 //  and also that sum
 console.log("The sum of " + testArray + " is " + sum);
+
+/* objects: Loop through an array 
+and get the sum of the elements of that array.*/
