@@ -10,7 +10,7 @@ for (var arrayPosition = 0; arrayPosition <testArray.length -1; arrayPosition++)
   var nextElement = testArray[arrayPosition + 1];
   // 2nd var does the same as currentElement but it adds 2
 
-  console.log ("Testing " + currentElement + " and " + nextElement + 
+  console.log("Testing " + currentElement + " and " + nextElement + 
   "(greater than): " + (currentElement > nextElement));
 
   if (currentElement == nextElement){
@@ -19,7 +19,7 @@ for (var arrayPosition = 0; arrayPosition <testArray.length -1; arrayPosition++)
   (currentElement === nextElement));
 
      if (currentElement !== nextElement){
-      consol.leog (currentElement + " is " + 
+      console.log(currentElement + " is " + 
         typeof(currentElement));
       console.log(nextElement + " is " + typeof(nextElement));
      }
@@ -30,3 +30,7 @@ for (var arrayPosition = 0; arrayPosition <testArray.length -1; arrayPosition++)
 
 
 }
+
+/* objectives: Loop through an array.
+Use comparison operators to check elements.
+Demonstrate loose typing in JavaScript.*/
