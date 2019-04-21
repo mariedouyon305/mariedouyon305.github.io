@@ -13,10 +13,19 @@ for (var arrayPosition = 0; arrayPosition <testArray.length -1; arrayPosition++)
   console.log ("Testing " + currentElement + " and " + nextElement + 
   "(greater than): " + (currentElement > nextElement));
 
-  if (currentElement !== nextElement){
-    
+  if (currentElement == nextElement){
+
      console.log("Testing " + currentElement + " and " + nextElement + "(strictly equal to): " + 
-  (currentElement === nextElement))
+  (currentElement === nextElement));
+
+     if (currentElement !== nextElement){
+      consol.leog (currentElement + " is " + 
+        typeof(currentElement));
+      console.log(nextElement + " is " + typeof(nextElement));
+     }
+  } else {
+     console.log("Testing " + currentElement + " and " + 
+      nextElement + "(equal to): false");
   }
 
 
