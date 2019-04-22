@@ -6,20 +6,24 @@
   </head>
 
   <body>
+
     <h1> Sample: </h1>
+
     <div>
-    	Starting Number: <input type: "text" id= "startingNum" placeholder= "Your starting number here" /> 
+    	Starting Number: <input type="text" id="startNum" placeholder= "Starting number" /> 
 	</div>
     
     <div> 
-    	Ending Number: <input type: "text" id= "endingNum" placeholder= "the ending number here"/> 
+    	Ending Number: <input type= "text" id= "endNum" placeholder= "Ending number"/> 
     </div>
-    <div> 
-    	Step: <input type= "text" id= "increments" placeholder= "your" /> 
-    </div>
-    	<button onclick = "FUNCTIONNAME();"> Display Evens</button> 
-    </table>
 
+    <div> 
+    	Step: <input type= "text" id= "increments" placeholder= "increments" /> 
+    </div>
+
+    	<button onclick = "displayEvens();"> Display Evens </button> 
+
+    <div> Here are the even numbers between <span id = "startNum"> </span> and <span id= "endNum"> </span> by <span id= "increments"></span>'s </div>
 
   </body>
 
