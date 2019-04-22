@@ -3,7 +3,7 @@ function clearErrors() {
     loopCounter < document.forms["numberFun"].elements.length;
     loopCounter++)  
 
-  {if (document.forms["numberFun"].elements[oopCounter] 
+  {if (document.forms["numberFun"].elements[loopCounter] 
       .parentElement.className.indexOf("has-") ! = -1) 
 
     {document.form["numberFun"].elements[loopCounter] 
@@ -16,7 +16,7 @@ function resetForms() {
   clearErrors();
   document.forms["numberFun"]["num1"].value = "";
   document.forms["numberFun"]["num2"].value = "";
-  document.getElementById("results").style.display = "none"
+  document.getElementById("results").style.display = "none";
     document.getElementById("submitButton").innerText = "Submit";
     document.forms["numberFun"]["num1"].focus();
 }
