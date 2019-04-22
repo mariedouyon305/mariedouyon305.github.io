@@ -1,19 +1,33 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-
+   <link rel= "stylesheet" type= "text/css"  href = "luckySevens.css"/> 
 	<script type = "text/javascript" src = "luckySevens.js"> </script>
+	<style>
+		article {
+			padding-top: 20px;
+		}
+	</style>
 </head>
 
 <body>
-	
+	<h3> Lucky Sevens</h3>
+	<div> 
+		<header align = center> Starting bet: <input type= "type" id= "firstBet" placeholder = "$0.00" >
+		</header>
+	</div>
 
-<button class="btn btn-primary" title="Click this button to place your order." type="button" 
-        data-toggle="tooltip" data-placement="top">
-    Place My Order
-</button>
+	<div> 
+		<article>
+			<button onclick="rollDice();"> Let's Play</button>
+		</artice>
+	</div>
 
+
+<!-- <button class="btn btn-primary" title="Click this button to place your order." type="button" data-toggle="tooltip" data-placement="top">
+ Place My Order
+</button>  
+ -->
 
  <script src="js/jquery-3.3.1.min.js"></script>
  <script src="js/popper.min.js"></script>
