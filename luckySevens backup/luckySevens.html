@@ -12,14 +12,17 @@
 
 <body>
 	<h3> Lucky Sevens</h3>
-	<div> 
-		<header align = center> Starting bet: <input type= "number" id= "firstBet" placeholder = "$0.00" >
+	
+	<form name= "rollDice" onsubmit ="return validateItems();" onreset = "resetform();" class="form-inline"> 
+
+		 Starting bet: <input type= "type" id= "firstBet" placeholder = "$0.00" >
 		</header>
-	</div>
+
+	</form>
 
 	<div> 
 		<article>
-			<button onclick="letsPlay;"> Let's Play</button>
+			<button onclick="rollDice();"> Let's Play</button>
 		</artice>
 	</div>
 
@@ -29,7 +32,9 @@
 </button>  
  -->
 
-
+ <script src="js/jquery-3.3.1.min.js"></script>
+ <script src="js/popper.min.js"></script>
+ <script src="js/bootstrap.min.js"></script>
     
 </body>
 </html>

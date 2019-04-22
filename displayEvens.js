@@ -7,6 +7,7 @@ function displayEvens(){
 
 	document.getElementById("message").innerText = "Here are the even numbers between "+num1+ " and "+num2+
 	" by "+step+"'s:";
+
 	for (var i = num1; i <= num2; i += step){
 		
 		if(i % 2 == 0){
