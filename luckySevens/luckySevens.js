@@ -9,7 +9,7 @@ function rollDice(){
 			var roll1= Math.floor(Math.random()*6);
 			var roll2 = Math.floor(Math.random()*6);
 			var rollResults = roll1 + roll2;
-		/* keeping roll1 and roll2 inside while loop keep dice chnaging*/
+		/* keeping roll1 and roll2 inside while loop keep dice changing*/
 
 			// console.log("Die #1:", roll1);
 			// console.log("Die #2:", roll2);
