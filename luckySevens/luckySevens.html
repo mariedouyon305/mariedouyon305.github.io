@@ -7,6 +7,9 @@
 		article {
 			padding-top: 20px;
 		}
+		button {
+			margin-top: 20px;
+		}
 	</style>
 </head>
 
@@ -14,6 +17,7 @@
 <article>
 	<h1> Lucky Sevens</h1>
 	
+	<article id= "intro">
 		<div>
 			Starting bet: <input type= "type" id= "firstBet" placeholder = "0" >
 
@@ -23,9 +27,10 @@
 		
 			<button onclick= "letsPlay();"> Let's Play</button>
 		</div>
+	</article>
 </article>
 
-<sectional>
+<sectional id="table">
 	<div>
 		<h1> Results <h1>
 	</div>
@@ -47,7 +52,7 @@
 					Total rolls before going broke:
 				</td>
 				<td> 
-					<input type= "number" id = "youLose" placeholder: "amount of dice rolls" >
+					<input type= "number" id = "youLose" placeholder: "amount of dice rolls" />
 				</td>
 			</tr>
 
@@ -69,6 +74,10 @@
 				</td>
 			</tr>
 		</table>
+		<div> 
+		
+			<button onclick= "letsPlay();"> Play Again </button>
+		</div>
 	</div> 
 </sectional>
     

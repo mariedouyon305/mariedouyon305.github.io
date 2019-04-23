@@ -37,6 +37,10 @@ function rollDice(){
 	 console.log(maxMoney);
 	 //  outputs that max amount of money until the game is lost
 	}
+		document.getElementById("table").style.visibility = "visible";
+		// display the ID in CSS labeled as Table once the while loop completes
+
+		document.getElementById("intro").style.visibility = "hidden";
 		}
 
 }  
@@ -55,8 +59,11 @@ function letsPlay(){
 		rollDice();
 
 	} else {
+
+		// document.getElementById("table").style.visibility = "visible";
+
 		
 	}
-		 
+ 
 }
 
