@@ -8,6 +8,15 @@
 <html lang = en>
 
 <head> 
+		<!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+	 <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+
 	<title> 
 		Snack bar options
 	</title>
@@ -16,8 +25,15 @@
 	<style>
 		table {
 			border-color: white;
-			border-style: dashed, thick;
+			border-style: thick;
+			margin-top: 20px;
+			margin-bottom: 20px;
 			
+		}
+
+		#img {
+			margin-top: 20px;
+
 		}
 	</style>
 
@@ -36,11 +52,10 @@
 			</p>
 			
 		<header>
-			<h1 align = center > 
-				Athletes Grab and Go Snack bar 
-			</h1>
 
 			<nav align = center>
+			<!-- 
+			Old links to the HOME MENU AND CONTACT US FROM THE MENU PG
 				<a href= "../index.html" />
 					Home Page
 				</a>
@@ -51,21 +66,120 @@
 
 				<a href= "../contact/index.html"/>
 					Contact Us
-				</a>
-			</nav>
-		</header>
+				</a> -->
 
-	<p>
-		<img src ="https://cdn.pixabay.com/photo/2014/04/02/10/18/granola-303384__340.png" width = 150px/>
+				<!-- 
+removed data-toggle="pill" from the  -->
+<table align = center>
+	<tr>
+		<th>
+			<ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+  				<li class="nav-item">
+   			 		<a class="nav-link active" id="pills-home-tab" href="../index.html" role="tab" aria-controls="pills-home" aria-selected="true">Home</a>
+  				</li>
+  				<li class="nav-item">
+    				<a class="nav-link" id="pills-profile-tab" href="index.html" role="tab" aria-controls="pills-profile" aria-selected="false">Menu</a>
+  				</li>
+  				<li class="nav-item">
+    				<a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="../contact/index.html"role="tab" aria-controls="pills-contact" aria-selected="false">Contact Us</a>
+  				</li>
+			</ul>
+		</th>
+	</tr>
+</table>
+
+<div class="tab-content" id="pills-tabContent">
+  <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab"></div>
+  <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab"></div>
+  <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab"></div>
+</div>
+		<h1 align = center > 
+				Athletes Grab and Go Snack bar 
+		</h1>
+	</nav>
+</header>
+
+<div class="float-sm-left" >
+	<p align = center id = "img">
+		<img src ="https://cdn.pixabay.com/photo/2014/04/02/10/18/granola-303384__340.png" width= 50% />
+		
+	</p>
+
+	<p align = center> <em> 
+		Protein bars starting at $5+
 		**Protein bars are homemade Please inquiry inside***
-	</p>
+	</em></p>
 
-	<p > 
-		Protein bars staring at $5+
-	</p>
+	<table border = 1 align = center>
+		<tr>
+			<th>
+				Peanut/Nuts Butter
+			</th>
+			<th> 
+				cookie Flavors
+			</th>
+			<th>
+				Sweet or Candy options
+			</th>
+			<th>
+				Ice cream Flavor
+			</th>
+		</tr>
+		<tr>
+			<td>
+				Bananas and PB and J
+			</td>
+			<td> 
+				Grandma Cookie
+			</td>
+			<td>
+				Sweet and Sour
+			</td>
+			<td>
+				Birthday 
+			</td>
+		</tr>	
+		<tr>
+			<td>
+				Nutty bar
+			</td>
+			<td>
+				Macadamia 
+			</td>
+			<td>
+				Huckleberry
+			</td>
+			<td>
+				cookie and cream 
+			</td>
+		</tr>
+		<tr>
+			<td>
+				Nut mix 
+			</td>
+			<td>
+				Raspberry Cheesecake Cookie 
+			</td>
+			<td>
+				Raisins
+			</td>
+			<td>
+				Rum Cake ice cream flavors
+			</td>	
+		</tr>
+		
+	</table>
+	</div><br>
+<!-- 
+		Other Sizes for responsive design
+<div class="float-md-left">Float left on viewports sized MD (medium) or wider</div><br>
+<div class="float-lg-left">Float left on viewports sized LG (large) or wider</div><br>
+<div class="float-xl-left">Float left on viewports sized XL (extra-large) or wider</div><br>
+ -->
+<div class="float-sm-left" >
 
 	<p align =  center> 
-	 <img src = https://cdn.pixabay.com/photo/2018/09/23/09/31/smoothie-3697014__480.jpg width = 150 />
+	 <img src = https://cdn.pixabay.com/photo/2018/09/23/09/31/smoothie-3697014__480.jpg width = 50% />
 	</p>
 
 	<p align = center> 
@@ -74,7 +188,7 @@
 			</em>
 	</p>
 	
-	<table >
+	<table border = 1 align = center>
 		<tr>
 			<th>
 				Fruit
@@ -133,22 +247,31 @@
 		</tr>
 		
 	</table>
+</div><br>
 
-	<p>
-	<img src = "https://cdn.pixabay.com/photo/2017/06/24/23/41/beer-2439237__480.jpg" width = 150px />
-	 **Beer is on tap Please inquiry inside**
+<div class="float-sm-left">
+	<p align = center>
+		<img src = "https://cdn.pixabay.com/photo/2017/06/24/23/41/beer-2439237__480.jpg" width = 50% />
 	</p>
+	<p align = center> <em>
+		**Beer is on tap Please inquiry inside**
+	 Beer starting at $5
+	</em></p>
+	</div> <br>
 
-	<p> 
-		Beer $5
-	</p> 
-
+<!-- <div class="float-md-left" >
 		<footer>
 			<hr/>
 			<p>NFL central, New York 11014 444.222.3333</p>
 			<p> &copy; 2019 Marie Douyon. All reights reserved </p>
 		</footer>
+</div><br> -->
 
 		</main>
+		<!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 	<body>
 </html>	
