@@ -31,14 +31,42 @@
 	</div>
 
 		<div>
-		<table> 
+		<table border = 1 align= center > 
+			<tr align = center> 
+				<td>
+				Starting Bet :
+				</td>
+				<td>
+				<input type="number" id="firstBet" placeholder= "Your first Bet" />
+				</td>
+			
+				</th>
+			</tr>
+			<tr align = center>
+				<td>
+					Total rolls before going broke:
+				</td>
+				<td> 
+					<input type= "number" id = "youLose" placeholder: "amount of dice rolls" >
+				</td>
+			</tr>
+
+			<tr align = center>
+			<td> 
+				Highest Amount won:
+			</td>
+			<td> 
+				<input type= "number" id = "max" placeholder = "Maximum won"> 
+			</td> 
+			</tr>
+
 			<tr> 
-				<th>
-				Starting Bet
-				</th>
-				<th>
-					<span id = "firstBet"> </span>
-				</th>
+				<td> 
+					Roll count at Highest Amount Won:
+				</td>
+				<td>
+					<input type="number" id = "rollCount" placeholder = "Roll that won the Highest Amount">
+				</td>
 			</tr>
 		</table>
 	</div> 
